@@ -35,7 +35,7 @@ Certifique-se de ter o **Node.js** instalado em sua máquina. O projeto utiliza 
 
 ### Passos para instalação e inicialização do projeto localmente:
 
-2. Clone o reposorio da api e rode a `Main.java`
+1. Clone o repositório da api e rode a `Main.java`
 
 ```bash
 git clone https://github.com/felipeclarindo/tech-mech-api.git
@@ -47,21 +47,25 @@ git clone https://github.com/felipeclarindo/tech-mech-api.git
 git clone https://github.com/felipeclarindo/tech-mech.git
 ```
 
-`backend/src/main/java/Main.java`
+3. Entre no diretorio:
 
-4. Agora vamos rodar o front-end
+```bash
+cd tech-mech
+```
+
+4. Agora vamos rodar o front-end (Certifique-se de que a api esteja rodando)
 
 ```bash
 npm install
 ```
 
-6. Rode o projeto localmente (certifique-se de que a API de java também esteja rodando):
+5. Rode o projeto localmente (certifique-se de que a API de java também esteja rodando):
 
 ```bash
 npm run dev
 ```
 
-7. Clique no link disponibilizado no terminal, normalmente:
+6. Clique no link disponibilizado no terminal, normalmente:
 
 - http://localhost:3000
 
