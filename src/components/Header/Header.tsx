@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../images/logo3.png";
 import MenuHeader from "../Menu/MenuHeader";
 import { usePathname } from "next/navigation";
 
@@ -31,7 +30,9 @@ function Header() {
     >
       <Link href={hiddenLinks ? "" : "/"}>
         <Image
-          src={logo}
+          src={"/images/logo3.png"}
+          width={120}
+          height={120}
           alt="Logo circular roxa, simbolizando a TechMec"
           className={
             hiddenLinks
@@ -46,7 +47,7 @@ function Header() {
         className={
           hiddenLinks
             ? "hidden"
-            : "xs:text-[1rem] sm:text-[1.125rem] bg-roxoClaro text-white border-none cursor-pointer rounded-lg h-[75px] w-[170px] px-2 font-bold transition-all duration-500 ease-in-out hover:scale-110 hover:bg-white hover:text-roxoEscuro"
+            : "xs:text-[0.8rem] sm:text-[1.125rem] bg-roxoClaro text-white border-none cursor-pointer rounded-lg h-[75px] w-[170px] px-2 font-bold transition-all duration-500 ease-in-out hover:scale-105 hover:bg-white hover:text-roxoEscuro"
         }
       >
         Logout

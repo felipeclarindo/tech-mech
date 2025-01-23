@@ -9,7 +9,6 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../images/logo2.png";
 import MenuFooter from "../Menu/MenuFooter";
 import { usePathname } from "next/navigation";
 
@@ -31,7 +30,9 @@ function Footer() {
       >
         <Link href={linksHidden ? "" : "/"}>
           <Image
-            src={logo}
+            src={"/images/logo2.png"}
+            height={350}
+            width={350}
             alt="Escrita em roxo com Logo circular entre dois textos Tech Mec"
             className="transition-transform duration-500 ease-in-out hover:scale-110"
           />
@@ -53,7 +54,7 @@ function Footer() {
               className="transition-transform duration-500 ease-in-out hover:scale-110 hover:text-roxoClaro text-[50px]"
             />
           </a>
-          <a
+          <a    
             href="https://www.linkedin.com/company/porto/?originalSubdomain=br"
             target="blank"
           >

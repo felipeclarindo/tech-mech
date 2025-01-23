@@ -75,9 +75,7 @@ function FormularioCadastro() {
 
   const verificarCpfExistente = async (cpf: string) => {
     try {
-      const response = await fetch(
-        `http://localhost:8080/techmec/clientes/${cpf}`
-      );
+      const response = await fetch(`http://localhost:8080/api/clients/${cpf}`);
       return response.ok;
     } catch (error) {
       console.error("Erro ao verificar CPF:", error);
@@ -111,7 +109,7 @@ function FormularioCadastro() {
     };
 
     try {
-      const response = await fetch("http://localhost:8080/techmec/clientes", {
+      const response = await fetch("http://localhost:8080/api/clients", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(usuarioFormatado),
