@@ -1,80 +1,75 @@
 # Tech Mech
 
-Este é um projeto de website de uma oficina automotiva fictícia buscando melhorar a experiencia do cliente com seu veiculo, melhorando o tempo gasto e trazendo uma redução no tempo perdido. O site é uma extensão da Porto e foi criado utilizando **Java** para o desenvolvimento da api e para o Front-end usamos **Next.js** e **TypeScript** com o objetivo de apresentar a oficina, um pouco sobre nós, e o mais importante: um **Assistente Virtual** capaz de realizar pré-diagnósticos, pré-orçamentos e agendamentos.
+This is a website project of a fictitious automotive workshop seeking to improve the customer experience with your vehicle, improving the time spent and bringing a reduction in lost time. The site is an extension of Porto and was created using **Java** for the development of the api and for the Front-end we use **Next.js\*** and **TypeScript** in order to present the workshop, a little about us, and most importantly: a **Virtual Assistant** capable of performing pre-diagnostics, pre-budges and schedules.
 
-## Funcionalidades
+## Functionalities
 
-- Páginas de Login e Cadastro do usuário
-- Página inicial que apresenta os serviços da oficina.
-- Página "Sobre Nós" que detalha a equipe e a história da oficina.
-- Assistente Virtual para auxiliar com diagnósticos e agendamentos.
-- Páginas adicionais como uma área de participantes e uma página de erro personalizada.
+- Login Pages and User Registration
+- Home page that presents the services of the workshop.
+- "About Us" page that details the team and the history of the workshop.
+- Virtual Assistant to assist with diagnostics and scheduling.
+- Additional pages such as an attendee area and a custom error page.
 
-## Páginas do projeto
+## Technologies used
 
-- **Login**
-- **Cadastro**
-- **Home**
-- **Sobre Nós**
-- **Participantes**
-- **Página de Erro**
+- **Next.js** (React Framework)
+- **TypeScript** (JS Superset)
+- **IBM Watson Assistant** (Virtual Assistant)
+- **Tailwind** (Styling)
+- **FontAwesome** (Icons)
+- **Git** (Version control)
+- **Java** (Development of api)
 
-## Tecnologias utilizadas
+## Requirements for installation
 
-- **Next.js** (Framework de React)
-- **TypeScript** (Superset de JS)
-- **IBM Watson Assistant** (Assistente Virtual)
-- **Tailwind** (Estilização)
-- **FontAwesome** (Ícones)
-- **Git** (Controle de versão)
-- **Java** (Desenvolvimento da api)
+Make sure you have the **Node.js** installed on your machine. The project uses **npm** for package management.
 
-## Requisitos para instalação
+### Steps for installing and starting the project locally:
 
-Certifique-se de ter o **Node.js** instalado em sua máquina. O projeto utiliza **npm** para gerenciamento de pacotes.
-
-### Passos para instalação e inicialização do projeto localmente:
-
-2. Clone o reposorio da api e rode a `Main.java`
+1. Clone the api repository and run `Main.java`
 
 ```bash
 git clone https://github.com/felipeclarindo/tech-mech-api.git
 ```
 
-2. Clone o repositório:
+2. Clone the repository:
 
 ```bash
 git clone https://github.com/felipeclarindo/tech-mech.git
 ```
 
-`backend/src/main/java/Main.java`
+3. Enter the directorate:
 
-4. Agora vamos rodar o front-end
+```bash
+cd tech-mech
+```
+
+4. Now let's run the front-end (Make sure the api is running)
 
 ```bash
 npm install
 ```
 
-6. Rode o projeto localmente (certifique-se de que a API de java também esteja rodando):
+5. Run the project locally (make sure the java API is running as well):
 
 ```bash
 npm run dev
 ```
 
-7. Clique no link disponibilizado no terminal, normalmente:
+6. Click on the link provided in the terminal, usually:
 
-- http://localhost:3000
+- `http://localhost:3000`
 
-## Contribuição
+## Contribution
 
-Contribuições são bem-vindas! Se você tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Contributions are welcome! If you have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-## Autores
+## Authors
 
 - [Victor Augusto](https://github.com/victoraugustogfavaro)
 - [Felipe Clarindo](https://github.com/felipeclarindo)
 - [Jennie Suzuki](https://github.com/jenniesuzuki)
 
-## Licença
+## License
 
-Este projeto está licenciado sob a [GNU Affero License](https://www.gnu.org/licenses/agpl-3.0.html).
+This project is licensed under the [GNU Affero License](https://www.gnu.org/licenses/agpl-3.0.html).
