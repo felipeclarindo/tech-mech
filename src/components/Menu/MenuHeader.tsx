@@ -6,9 +6,9 @@ import { usePathname } from "next/navigation";
 function MenuHeader() {
   const pathname = usePathname();
   const hiddenLinks =
-  pathname !== "/" &&
-  pathname !== "/sobre-nos" &&
-  pathname !== "/participantes";
+    pathname !== "/" &&
+    pathname !== "/sobre-nos" &&
+    pathname !== "/participantes";
 
   return (
     <nav className={hiddenLinks ? "hidden" : "block"}>
@@ -35,18 +35,6 @@ function MenuHeader() {
             }
           >
             SOBRE NÓS
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="/participantes"
-            className={
-              pathname === "/participantes"
-                ? "text-roxoClaro font-bold transition-all duration-500 ease-in-out xl:p-7"
-                : " text-white font-bold transition-all duration-500 ease-in-out hover:text-roxoClaro xl:p-7"
-            }
-          >
-            PARTICIPANTES
           </Link>
         </li>
       </ul>
