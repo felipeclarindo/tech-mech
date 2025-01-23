@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import BannerHome from "@/components/Banner/BannerHome";
 import Botao from "@/components/Botao/Botao";
